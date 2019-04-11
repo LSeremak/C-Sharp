@@ -11,6 +11,13 @@ namespace Projekt0
         static void Main(string[] args)
         {
 
+
+
+
+
+
+
+
             //string min = "test";
             //string min2 = "test 2";
 
@@ -25,85 +32,126 @@ namespace Projekt0
 
 
 
-            string firstName;  // zmienna przechowyje imie
-            string lastName; // zminenna przechowuje nazwisko
-            string thanks = "Dziekuję!";
+            //string firstName;  // zmienna przechowyje imie
+            //string lastName; // zminenna przechowuje nazwisko
+            //string thanks = "Dziekuję!";
 
 
 
-            Console.WriteLine("Hej ty");
-            Console.Write("Wprowadź imię :");
-            /* Console.Write wuswietla wpisany ciag znakow w zminnnej  w jednym wierszu */
+            //Console.WriteLine("Hej ty");
+            //Console.Write("Wprowadź imię :");
+            ///* Console.Write wuswietla wpisany ciag znakow w zminnnej  w jednym wierszu */
 
-            firstName = Console.ReadLine();
+            //firstName = Console.ReadLine();
 
-            Console.Write("Wprowadź nazwisko :");
-            lastName = Console.ReadLine();
+            //Console.Write("Wprowadź nazwisko :");
+            //lastName = Console.ReadLine();
 
-            Console.WriteLine(thanks);
-
-
-
-            Console.WriteLine(
-                $"Twoje imie i nazwisko to {firstName} {lastName}"
-                );
+            //Console.WriteLine(thanks);
 
 
 
-            double liczba1, liczba2, wynik;
+            //Console.WriteLine(
+            //    $"Twoje imie i nazwisko to {firstName} {lastName}"
+            //    );
+
+
+
+            //double liczba1, liczba2, wynik;
+
+
+            //Console.WriteLine("Podaj pierwszą liczbę:");
+            //liczba1 = Double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Podaj drugą liczbę:");
+            //liczba2 = Double.Parse(Console.ReadLine());
+
+            //wynik = liczba1 + liczba2;
+
+            //Console.WriteLine("\a");
+
+            //Console.WriteLine("Wynik:" + wynik);
+
+            //Console.WriteLine(@"Poczatek
+            //        /\
+            //       /  \
+            //      /    \
+            //                    Koniec");
+
+            //string lenght = "Ile to jest znaków";
+
+            //Console.WriteLine(lenght);
+
+            //Console.WriteLine(lenght.Length);
+
+
+            //string text, uppercase;
+
+            //Console.WriteLine("Wprowadź tekst:");
+            //text = Console.ReadLine();
+
+            //Console.WriteLine("A teraz zaminimy test na duże litery");
+
+            //uppercase = text.ToUpper();
+
+            //Console.WriteLine(uppercase);
+
+
+            //string[] languages = { "C#", "COBOL", "Java",
+            //        "C++", "Visual Basic", "Pascal",
+            //        "Fortran", "Lisp", "J#"};
+
+
+            //Console.WriteLine(languages[2]);
+
+
+            //string[] groceryList;
+            //System.Console.Write("Ile elementów znajduje się na liście? ");
+            //int size = int.Parse(System.Console.ReadLine());
+            //groceryList = new string[size];
+
+
+
+            //int a = 89;
+            //int b = 99;
+            //int c = 5;
+
+            //var wynik = a % b % c; // modulo % - reszta z dzielenia
+
+            //Console.WriteLine("Modulo z trzeh zmiennych to: " + wynik);
+
+
+            //int zmienna = 256 >> 2;
+
+            ////zmienna = 256 >> 2; // przesunięcie bitowe w lewo lub w prawo
+
+
+            //Console.WriteLine(zmienna);
+
+            //int xxx;
+            //Console.WriteLine("Wprowadź liczbę:");
+            //xxx = int.Parse(Console.ReadLine());
+
            
 
-            Console.WriteLine("Podaj pierwszą liczbę:");
-            liczba1 = Double.Parse(Console.ReadLine());
+            //if (xxx > 25)
+            //{
+            //    Console.WriteLine("Za duża liczba");
+            //}
 
-            Console.WriteLine("Podaj drugą liczbę:");
-            liczba2 = Double.Parse(Console.ReadLine());
+            //else if (xxx < 25)
+            //{
+            //    Console.WriteLine("Za mała liczba");
+            //}
 
-            wynik = liczba1 + liczba2;
-
-            Console.WriteLine("\a");
-
-            Console.WriteLine("Wynik:" + wynik);
-
-            Console.WriteLine(@"Poczatek
-                    /\
-                   /  \
-                  /    \
-Koniec"
-);
-
-            string lenght = "Ile to jest znaków";
-
-            Console.WriteLine(lenght);
-
-            Console.WriteLine(lenght.Length);
-
-
-            string text, uppercase;
-
-            Console.WriteLine("Wprowadź tekst:");
-            text = Console.ReadLine();
-
-            Console.WriteLine("A teraz zaminimy test na duże litery");
-
-            uppercase = text.ToUpper();
-
-            Console.WriteLine(uppercase);
-
-
-           
-            
-
-            
-
-            
+            //else
+            //{
+            //    Console.WriteLine("Brawo!! To ta liczba!!");
+            //}
 
 
 
-
-
-
-
+             
 
 
 
