@@ -12,7 +12,52 @@ namespace Projekt0
         {
 
 
+            Diary diary = new Diary();
+            //diary.AddRating(5);
+            //diary.AddRating(8.5f);
+            //diary.AddRating(4.7f);
+            //diary.AddRating(3);
 
+
+            //float avg = diary.CalculateAverage();
+            //float max = diary.MaxRating();
+            //float min = diary.MinRating();
+
+
+            for (; ; )
+            {
+
+                Console.WriteLine("Podaj ocenę z zakresu 1 - 10");
+                float rating;
+                bool result = float.TryParse(Console.ReadLine(), out rating);
+
+                
+
+                if (rating == 11)
+                {
+                    break;
+                }
+
+                if (result)
+                {
+                    if (rating > 0 & rating <= 10)
+                    {
+                        diary.AddRating(rating);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Niepoprawna liczba, podaj liczbę z zkresu 1 -10");
+                    }
+                }
+            }
+
+            Console.WriteLine("Srednia twoich ocen to :" + diary.CalculateAverage());
+            Console.WriteLine("Najwyższa ocena to :" + diary.MaxRating());
+            Console.WriteLine("Najniższa ocena to : " + diary.MinRating());
+
+
+            Console.ReadKey();
+        }
 
 
 
@@ -155,8 +200,8 @@ namespace Projekt0
 
 
 
-            Console.ReadKey();
-        }
+            
+        
     }
 
         
